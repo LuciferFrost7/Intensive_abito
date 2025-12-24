@@ -1,0 +1,17 @@
+:root {
+  --color-black: #000;
+  --color-blue: #0076fe;
+  --color-dark-blue: #0a143a;
+  --color-white: #fff;
+  --color-white2: #f3f3f3;
+
+  --font-header: var(--color-black);
+  --font-common: #333;
+  --font-common-alter: var(--color-white2);
+
+  --bg-main: var(--color-white);
+  --bg-surface: var(--color-white);
+
+  --bg-button: var(--color-white2);
+  --bg-button-fill: var(--color-blue);
+}

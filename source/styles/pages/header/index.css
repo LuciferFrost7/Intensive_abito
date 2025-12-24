@@ -1,0 +1,44 @@
+@import url("./logo.css");
+@import url("./burger.css");
+
+.abito-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-surface);
+}
+
+.abito-header__wrapper {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.abito-header__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.abito-header__container.logo {
+  text-decoration: none;
+  align-items: center;
+  gap: 10px;
+}
+
+.abito-header__container.controls {
+  gap: 20px;
+  display: flex;
+
+  @media screen and (width < 756px) {
+    display: none;
+  }
+}
+
+.abito-header__container.burger {
+  display: none;
+
+  @media screen and (width < 756px) {
+    display: block;
+  }
+}

@@ -1,0 +1,8 @@
+.burger {
+  cursor: pointer;
+}
+
+.burger__image {
+  width: 28px;
+  object-fit: contain;
+}
