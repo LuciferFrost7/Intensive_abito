@@ -96,7 +96,7 @@
   flex-direction: column;
 }
 
-.content__box.card-info .adress {
+.content__box.card-info .address {
 }
 
 .content__box.card-info .time {
@@ -126,6 +126,7 @@
 }
 
 .content-sidebar__footer {
+  font-size: 14px;
   margin-top: auto;
   color: #c4c4c4;
   line-height: 28px;
